@@ -1,17 +1,45 @@
 
 /*Consistent CSS*/
-
-.navbar-brand {
+body {
     background-color: lightgoldenrodyellow;
 }
 
-body {
+.navbar-brand {
     background-color: lightgoldenrodyellow;
 }
 
 .headings {
     text-align: left;
 }
+
+.heading {
+    color: teal;
+    font-size: large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#indexImage {
+    float: left;
+    width: 75%;
+    height: auto;
+    margin: 25px;
+    padding: 15px 15px 15px 15px;
+}
+
+#photoHeader {
+    text-align: left;
+    border: white;
+    margin: 10px 10px 10px 10px;
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+}
+
+ .gallery {
+     border: white;
+     padding: 25px 25px 25px 25px;
+     margin: 50px 50px 50px 50px;
+     background-color: white;  
+ }
 
  .footer {
     position: fixed;
@@ -23,24 +51,6 @@ body {
     text-align: center;
   }
 
- #indexImage {
-     float: left;
-     width: 75%;
-     height: auto;
-     margin: 25px;
-     padding: 15px 15px 15px 15px;
- }
-
- .container {
-     background-origin: padding-box;
- }
-
- .photoGallery {
-     background-color: white;
-     margin: 25px;
-     padding: 10px 10px 10px 10px;
- }
-
 /*Everything less than 767px*/
 @media screen and (max-width: 767px) {
 form {
@@ -49,76 +59,38 @@ form {
     margin: 25px;
     padding: 15px 15px 15px 15px;
     width: 75%;
-   height: auto;
+    height: auto;
     
 }
-div.gallery img {
-    width: 98%;
-    height: auto;
-    padding: 15px;
-    box-sizing: border-box;
-  }
 
-div.box {
-   width: 75%;
-   height: auto;
-}
-.photoGallery {
-width: 100%;
-    background-color: white;
-    margin: 25px;
-    padding: 15px 15px 15px 15px;
-    width: 75%;
-   height: auto;
-}
-}
+                                    }
 
 
 /*Everything less than 991px and greater than 768*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
-    div.gallery img {
-        width: 80%;
-        height: auto;
-        padding: 15px;
-        box-sizing: border-box;
-      }
-    form {
+
+form {
     width: 100%;
     background-color: white;
     margin: 25px;
     padding: 15px 15px 15px 15px;
     width: 75%;
-   height: auto;
-}
-.photoGallery {
-    width: 100%;
-    background-color: white;
-    margin: 25px;
-    padding: 15px 15px 15px 15px;
-    width: 75%;
-   height: auto;
+    height: auto;
     }
 
+
+                                                             }
 /*Everything greater than 992px*/
 @media screen and (min-width: 992px) {
-    .responsive {
-    width: 25.99999%;
-    height: auto;
-    padding: 15px;
-    box-sizing: border-box;
-    display: inline-block;
-    }
+
     
-    form {
-        width: 100%;
-        background-color: white;
-        margin: 25px;
-        padding: 15px 15px 15px 15px;
-       width: 75%;
-       height: auto;
+form {
+    width: 100%;
+    background-color: white;
+    margin: 25px;
+    padding: 15px 15px 15px 15px;
+    width: 75%;
+    height: auto;
     }
-  
+                                    }
 
-
-}
-}

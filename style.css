@@ -1,11 +1,19 @@
 
+/*Consistent CSS*/
+
+.navbar-brand {
+    background-color: lightgoldenrodyellow;
+}
 
 body {
     background-color: lightgoldenrodyellow;
 }
 
+.headings {
+    text-align: left;
+}
 
-  .footer {
+ .footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -15,12 +23,23 @@ body {
     text-align: center;
   }
 
-  .navbar-brand {
-      background-color: lightgoldenrodyellow;
-  }
+ #indexImage {
+     float: left;
+     width: 75%;
+     height: auto;
+     margin: 25px;
+     padding: 15px 15px 15px 15px;
+ }
 
-  
+ .container {
+     background-origin: padding-box;
+ }
 
+ .photoGallery {
+     background-color: white;
+     margin: 25px;
+     padding: 10px 10px 10px 10px;
+ }
 
 /*Everything less than 767px*/
 @media screen and (max-width: 767px) {

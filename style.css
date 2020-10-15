@@ -1,11 +1,41 @@
+
+  
+
+
+/*Everything less than 767px*/
 @media screen and (max-width: 767px) {
+.main {
+    width: 100%;
+}
+div.gallery img {
+    width: 98%;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+  }
 
 }
 
+/*Everything less than px*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
+    div.gallery img {
+        width: 85%;
+        height: auto;
+        padding: 15px;
+        box-sizing: border-box;
+      }
 
 }
-
+/*Everything less than 767px*/
 @media screen and (min-width: 992px) {
+    .responsive {
+    width: 25.99999%;
+    height: auto;
+    padding: 15px;
+    box-sizing: border-box;
+    display: inline-block;
+      }
+    
+   
     
 }

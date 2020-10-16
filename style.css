@@ -1,22 +1,32 @@
 
 /*Consistent CSS*/
 body {
-    background-color: lightgoldenrodyellow;
+    background-image: url(Images/backgroundimg.jpg);
+    background-size: cover;
 }
 
 .navbar-brand {
-    background-color: lightgoldenrodyellow;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 
-.headings {
-    text-align: left;
+.nav-item {
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
 }
 
-.heading {
-    color: teal;
-    font-size: large;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+.card-body {
+    background-color: #FFB6C1;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
+.card-title {
+    font-weight: 700;
+}
+
+.btn {
+    background-color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
 
 #indexImage {
     float: left;
@@ -26,42 +36,19 @@ body {
     padding: 15px 15px 15px 15px;
 }
 
-#photoHeader {
-    text-align: left;
-    border: white;
-    margin: 10px 10px 10px 10px;
-    padding: 10px 10px 10px 10px;
-    background-color: white;
-}
-
- .gallery {
-     border: white;
-     padding: 25px 25px 25px 25px;
-     margin: 50px 50px 50px 50px;
-     background-color: white;  
- }
-
  .footer {
     position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
-    background-color: grey;
-    color: lightgoldenrodyellow;
+    background-color:white;
+    color: black;
     text-align: center;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
   }
 
 /*Everything less than 767px*/
 @media screen and (max-width: 767px) {
-form {
-    width: 100%;
-    background-color: white;
-    margin: 25px;
-    padding: 15px 15px 15px 15px;
-    width: 75%;
-    height: auto;
-    
-}
 
                                     }
 
@@ -69,28 +56,10 @@ form {
 /*Everything less than 991px and greater than 768*/
 @media screen and (min-width: 768px) and (max-width: 991px) {
 
-form {
-    width: 100%;
-    background-color: white;
-    margin: 25px;
-    padding: 15px 15px 15px 15px;
-    width: 75%;
-    height: auto;
-    }
-
 
                                                              }
 /*Everything greater than 992px*/
 @media screen and (min-width: 992px) {
 
-    
-form {
-    width: 100%;
-    background-color: white;
-    margin: 25px;
-    padding: 15px 15px 15px 15px;
-    width: 75%;
-    height: auto;
-    }
                                     }
 

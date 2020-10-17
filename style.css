@@ -3,6 +3,7 @@
 body {
     background-image: url(Images/backgroundimg.jpg);
     background-size: cover;
+    background-attachment: fixed;
 }
 
 .navbar-brand {
@@ -11,6 +12,22 @@ body {
 
 .nav-item {
     font-family: Impact,'Arial Narrow Bold', sans-serif;
+}
+
+.media-object {
+    padding: 15px 15px 15px 15px;
+}
+
+.media-heading {
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    color: #FFB6C1;
+    background-color: black;
+}
+
+main p {
+    background-color: #FFB6C1;
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .card-body {
@@ -27,14 +44,12 @@ body {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
-
-#indexImage {
-    float: left;
-    width: 75%;
-    height: auto;
-    margin: 25px;
-    padding: 15px 15px 15px 15px;
+.font {
+    background-color: black;
+    font-family: Impact,'Arial Narrow Bold', sans-serif;
+    color: #FFB6C1;
 }
+
 
  .footer {
     position: fixed;
@@ -46,6 +61,7 @@ body {
     text-align: center;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
   }
+
 
 /*Everything less than 767px*/
 @media screen and (max-width: 767px) {

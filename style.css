@@ -37,6 +37,10 @@ div.media-body {
     margin: 5px 5px 15px 5px;
 }
 
+h6 {
+    width: 33%
+}
+
 .card-body {
     background-color: #FFB6C1;
     font-family: Georgia, 'Times New Roman', Times, serif;

@@ -22,12 +22,19 @@ body {
     font-family: Impact,'Arial Narrow Bold', sans-serif;
     color: #FFB6C1;
     background-color: black;
+    margin: 15px;
+
 }
 
-main p {
+div.media-body {
+    display: inline-block;
+}
+
+.media-body p {
     background-color: #FFB6C1;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 5px 5px 15px 5px;
 }
 
 .card-body {
@@ -50,8 +57,7 @@ main p {
     color: #FFB6C1;
 }
 
-
- .footer {
+.footer {
     position: fixed;
     left: 0;
     bottom: 0;

@@ -1,9 +1,10 @@
 
 /*Consistent CSS*/
 body {
-    background-image: url(Images/backgroundimg.jpg);
+    /*background-image: url(Images/backgroundimg.jpg);
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: fixed;*/
+    background-color: lightblue;
 }
 
 .navbar-brand {
@@ -21,17 +22,19 @@ body {
 
 .media-heading {
     font-family: Impact,'Arial Narrow Bold', sans-serif;
-    color: #FFB6C1;
-    background-color: black;
+    color: black;
     margin: 15px;
 
 }
 
 .media-body p {
-    background-color: #FFB6C1;
     color: black;
     font-family: Georgia, 'Times New Roman', Times, serif;
     margin: 5px 5px 15px 5px;
+}
+
+.card {
+    margin-bottom: 25px;
 }
 /*Portfolio CSS*/
 h6 {
@@ -40,7 +43,7 @@ h6 {
 
 /*Contact CSS*/
 .card-body {
-    background-color: #FFB6C1;
+    background-color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
@@ -54,9 +57,8 @@ h6 {
 }
 
 .font {
-    background-color: black;
+    color: black;
     font-family: Impact,'Arial Narrow Bold', sans-serif;
-    color: #FFB6C1;
 }
 
 /*Footer CSS*/
